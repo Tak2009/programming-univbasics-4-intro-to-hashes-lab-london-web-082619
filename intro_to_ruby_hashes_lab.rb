@@ -41,5 +41,4 @@ def update_counting_hash(hash, key)
     else
      hash.store(key, 1)
     end
-    hash
 end
