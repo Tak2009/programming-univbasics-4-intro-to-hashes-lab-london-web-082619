@@ -21,10 +21,15 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hash = {}
-  hash.store(key, value)
-  hash
+  hash = {key: value}
 end
+
+
+# def my_hash_creator(key, value)
+#  hash = {}
+#  hash.store(key, value)
+#  hash
+# end
 
 def read_from_hash(hash, key)
   if hash[key]
