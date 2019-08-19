@@ -24,13 +24,13 @@ def my_hash_creator(key, value)
   {key => value}
 end
 
-= begin
+=begin
 def my_hash_creator(key, value)
   hash = {}
   hash.store(key, value)
   hash
 end
-= end
+=end
 
 def read_from_hash(hash, key)
    hash[key]
